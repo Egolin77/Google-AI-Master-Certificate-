@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google AI Master & Prompt Engineer - Viktor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Product Sans', sans-serif; background: #f0f2f5; margin: 0; padding: 20px; display: flex; justify-content: center; }
+        
+        .cert-card { 
+            background: white; 
+            width: 210mm; 
+            padding: 40px; 
+            box-sizing: border-box; 
+            position: relative; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .cert-card::before { 
+            content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 8px; 
+            background: linear-gradient(90deg, #4285F4 25%, #EA4335 25%, #EA4335 50%, #FBBC05 50%, #FBBC05 75%, #34A853 75%); 
+        }
+
+        .google-header { display: flex; align-items: center; margin-bottom: 30px; }
+        .google-logo { width: 50px; height: 50px; margin-right: 15px; }
+        .cert-title { font-size: 22px; font-weight: 700; color: #5f6368; margin: 0; }
+        .candidate-name { font-size: 36px; font-weight: 700; color: #202124; margin: 5px 0; }
+        .grade-pill { background: #e8f0fe; color: #1a73e8; border-radius: 20px; padding: 5px 15px; font-weight: 700; font-size: 15px; }
+
+        .transcript-grid { 
+            display: grid; grid-template-cols: 1fr 1fr; gap: 30px; 
+            margin-top: 30px; border-top: 1px solid #e0e0e0; padding-top: 30px; 
+        }
+
+        .module-list { list-style: none; padding: 0; margin: 10px 0; font-size: 14px; color: #5f6368; line-height: 1.6; }
+        .module-list li::before { content: "• "; color: #4285F4; font-weight: bold; }
+
+        .thesis-section { 
+            background: #f8f9fa; border-radius: 8px; padding: 20px; 
+            grid-column: 1 / -1; margin-top: 20px; border: 1px solid #e0e0e0; 
+        }
+        .thesis-section h4 { margin-bottom: 10px; }
+        .thesis-section p { font-size: 15px; margin: 5px 0; color: #3c4043; }
+
+        .verification-data { 
+            font-size: 12px; color: #9aa0a6; 
+            margin-top: 40px; 
+            text-align: center; 
+            border-top: 1px dashed #e0e0e0;
+            padding-top: 20px;
+        }
+
+        h4 { margin: 0; color: #202124; text-transform: uppercase; font-size: 14px; letter-spacing: 0.8px; }
+        a { color: #1a73e8; text-decoration: none; font-weight: bold; }
+
+        @media print {
+            body { background: white; padding: 0; }
+            .cert-card { box-shadow: none; width: 100%; border: none; }
+            @page { size: A4; margin: 10mm; }
+        }
+    </style>
+</head>
+<body>
+    <div class="cert-card">
+        <div class="google-header">
+            <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Google Logo" class="google-logo">
+            <div>
+                <p class="cert-title">Google AI Master & Prompt Engineer</p>
+                <p class="candidate-name">Viktor</p>
+                <span class="grade-pill">Grade: 100% Distinction</span>
+            </div>
+        </div>
+
+        <div class="transcript-grid">
+            <div>
+                <h4>AI & Prompt Engineering</h4>
+                <ul class="module-list">
+                    <li>Multimodal Generative World Models</li>
+                    <li>Agentic Orchestration</li>
+                    <li>Quantum-Classical Hybrid architectures</li>
+                    <li>Self-Evolving Code</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Cloud Infrastructure</h4>
+                <ul class="module-list">
+                    <li>Firestore NoSQL</li>
+                    <li>Security & Privacy</li>
+                    <li>API & SDK Management</li>
+                    <li>GitHub CI/CD</li>
+                </ul>
+            </div>
+            <div class="thesis-section">
+                <h4>THESIS WORK (GRADUATION PROJECT)</h4>
+                <p><strong>Project Name:</strong> ISO 9001:2015 Digital Lead Auditor</p>
+                <p><strong>Description:</strong> Interactive, AI-based expert system for conducting ISO 9001:2015 certification audits.</p>
+                <p><strong>Link:</strong> <a href="https://ai.studio/apps/dbb221ad-83ef-438e-87dc-dc7b1cde4801">View Project</a></p>
+            </div>
+        </div>
+
+        <div class="verification-data">
+            <p>Issue Date: 2026-04-06 | ID: CERT-VKT8-9001</p>
+            <p>Candidate Email: turiviktor8@gmail.com | Verified by Google AI Board</p>
+        </div>
+    </div>
+</body>
+</html>
+
